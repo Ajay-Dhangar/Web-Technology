@@ -1,0 +1,97 @@
+=================
+      CSS
+=================
+
+CSS (Cascading Style Sheets) is a stylesheet language used to design a webpage to make it attractive. 
+The reason for using this is to simplify the process of making web pages presentable. 
+It allows you to apply styles on web pages. More importantly, it enables you to do this independent of the HTML that makes up each web page.
+
+--------------------------------------
+
+There are three types of CSS which are given below:
+
+      (i) Inline: 
+               Inline CSS contains the CSS property in the body section attached with the element known as inline CSS.
+     
+     (ii) Internal or Embedded: 
+               The CSS ruleset should be within the HTML file in the head section i.e the CSS is embedded within the HTML file. 
+    
+    (iii) External:  
+               External CSS contains a separate CSS file that contains only style property with the help of tag attributes.ii
+-------------------------------------------
+
+Basic Format: It is the basic structure of HTML webpage and we use CSS style inside webpage. 
+              In a web page, we use internal CSS (i.e. adding CSS code inside <head> tag of HTML code).
+
+                    <!DOCTYPE html>
+                    <html>
+                      
+                    <head>
+                        <!-- Head section of web page -->
+                        <title></title>
+                      
+                        <!-- Stylesheet of web page -->
+                        <style></style>
+                    </head>
+                      
+                    <body>
+                        <!-- Body section of web page -->
+                    </body>
+                      
+                    </html>
+        
+------------------------------------
+        
+Example 1: Let’s see a small example of HTML webpage with CSS styles. 
+Here, we use styles to set the alignment and text color of a webpage.
+
+    => CSS-LAB
+        -> EX-1.html
+
+
+Example 2: In this example, we will see how to apply styles using class and id.
+
+    => CSS-LAB
+        -> EX-2.html
+
+----------------------------------------------
+
+1. What does CSS mean?
+
+    Tags for formatting a web page were never intended in HTML. HTML was established to define a web page’s content. 
+    The addition of tags like <font> and color attributes to HTML created a big problem for web developers. 
+    The creation of large websites, where fonts and color information were added to each page, became a time-consuming and costly procedure. 
+    CSS was established to address this issue. CSS eliminated the HTML page’s style formatting.
+
+2. How CSS is different from HTML?
+    -> HTML is used to define a structure of a web page whereas CSS is used to style the web pages by using different styling features.
+    -> HTML consists of tags inside which text is enclosed and CSS consists of selectors and declaration blocks.
+    -> CSS can be internal or external depending upon the requirement.
+    -> We cannot use HTML inside a CSS sheet but we can use CSS inside an HTML document.
+    -> CSS has comparatively higher backup and support than HTML.
+
+3. Why is CSS used in HTML?
+    -> Solves a big problem: Font, color, background style, element alignments, border, and size tags had to be duplicated on each web page before CSS. 
+                             This was a lengthy procedure.
+    -> Saves a lot of time: Because CSS style definitions are stored in external CSS files, updating only one file can modify the entire website.
+    -> Provide more attributes: CSS gives more specific features for defining the look and feel of a website than simple HTML.
+    -> Pages load faster: CSS doesn’t require you to write HTML tag attributes all of the time. A tag’s rule can be written once and applied to all instances of the tag. 
+                          As a result, CSS uses less code, resulting in speedier download times.
+    -> Easier Website maintenance: CSS makes website maintenance much easier. 
+                                   If we need to make a global change to the file, we can simply alter the style, which will update all of the elements on the web page.
+    -> Multiple device compatibility: We can use CSS with older language versions because it is compatible with them. CSS makes it possible to optimize material for several devices.
+
+4. Why we learn CSS?
+     
+     Styling is an essential property for any website. 
+     It increases the standards and overall look of the website that makes it easier for the user to interact with it. 
+     A website can be made without CSS, as styling is MUST since no user would want to interact with a dull and shabby website. 
+     So for knowing Web Development, learning CSS is mandatory.
+
+       -> Base for web development: HTML and CSS is the basic skill that every web developer should know. It is the basic skill that is required for building a website.
+       -> Makes your website look attractive: A website that’s dull and plain will not attract the user most probably, so adding some style would surely make your website presentable to the user.
+       -> Makes the design come live: A web developer is responsible for making the design given to him as a live product. It is used for styling to develop the design of the website.
+       -> Increases user experience of the website: A website with a simple yet beautiful UI would help the users to go through the website easily. 
+                    It is used to make the user interface better.
+       -> More career opportunities: Since CSS is a basic requirement while learning Web Development, therefor there are abundant career opportunities for it. 
+                    As a freelancer, you can land up to many projects.

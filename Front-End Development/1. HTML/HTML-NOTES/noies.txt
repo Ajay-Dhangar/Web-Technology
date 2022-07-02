@@ -1,0 +1,51 @@
+================
+     HTML
+================
+--------------------------
+1. What is HTML ?
+
+    HTML stands for HyperText Markup Language. 
+    It is used to design web pages using the markup language. 
+    HTML is the combination of Hypertext and Markup language. 
+    Hypertext defines the link between the web pages and markup language defines the text document within the tag that define the structure of web pages.
+
+-----------------------------
+
+3. What is HTML used for ?
+
+     HTML is used to create the structure of web pages that are displayed on the World Wide Web (www). 
+     It contains Tags and Attributes that are used to design the web pages. 
+     Also, we can link multiple pages using Hyperlinks.
+
+--------------------------------
+
+3. HTML Basic Format Page Structure
+
+    The basic structure of an HTML page is laid out below. 
+    It contains the essential building-block elements (i.e. doctype declaration, HTML, head, title, and body elements) upon which all web pages are created.
+
+    <DOCTYPE! html> – A doctype or document type declaration is an instruction that tells the web browser about the markup language in which the current page is written. It is not an element or tag. The doctype declaration is not case-sensitive.
+
+             <html> – This tag is used to define the root element of HTML document. This tag tells the browser that it is an HTML document. It is the second outer container element that contains all other elements within it.
+             
+             <head> – This tag is used to define the head portion of the HTML document that contains information related to the document. Elements within the head tag are not visible on the front-end of a webpage.
+             
+             <body> – The body tag is used to enclose all the visible content of a webpage. In other words, the body content is what the browser will show on the front end.
+
+    Example 1: This is the basic example of HTML that display the heading and paragraph content.
+
+    => In HTML-LAB 
+             -> EX-1.html
+    
+    Example 2: This example describes how to create a simple form using HTML. 
+    To create a form, we will use <form> tag and inside form tag, we will use some input fields and label elements to display the form.
+
+    => In HTML-LAB 
+             -> EX-2.html
+
+Online Course | Web Design for Beginners: 
+        A beginner-level course for the curious Geek inside you! Here you will be learning all that there is to know about Web designing from scratch!
+
+HTML Questions:
+        Please go through this link to see the wide collection of question based examples. 
+        These examples are categorized based on the topics including hyperlinks, forms, tables, frames, and many more.

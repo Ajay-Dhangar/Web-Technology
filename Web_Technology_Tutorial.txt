@@ -1,0 +1,172 @@
+WEB-TECHNOLOGY:
+               Web technology refers to the various tools and techniques that utilized in the process in thde communication Between differents type of divices oure the internet.
+               A web browser is used to access web pages.
+
+    Web-Technology can be classified into the following section:
+        
+        1. World Wide Web :
+                           The world wide web is based on several different technology: web browser, Hypertext Markup Language (HTML), and Hypertext Transfer Protocol(HTTP).
+
+        2. Web Browser: 
+                        The web browser is an application software to explore www (World Wide Web). It provides an interface between the server and the client and requests to the server for web documents and services.
+
+        3. Web Server:
+                        Web server is a program which processes the network requests of the users and serves them with files that create web pages. This exchange takes place using Hypertext Transfer Protocol (HTTP).
+
+        4. Web pages:
+                      A webpage is a digital document that is linked to the World Wide Web and viewable by anyone connected to the internet has a web browser.
+
+
+        5. Web Development:
+                           Web development refers to the building, creating, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.
+
+      Web Development can be classified into two ways:
+
+            a. Front-End Development:
+                                       The part of a website that the user interacts directly is termed as front end. It is also referred to as the ‘client side’ of the application.
+
+            
+            b. Back-End Development:
+                                       Backend is the server side of a website. It is the part of the website that users cannot see and interact. It is the portion of software that does not come in direct contact with the users. It is used to store and arrange data.
+ 
+ 1. Frontend Languages: 
+                     The front end portion is built by using some languages which are discussed below:
+
+  (i) HTML: HTML stands for Hypertext Markup Language. It is used to design the front-end portion of web pages using a markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. The markup language is used to define the text documentation within the tag which defines the structure of web pages.
+ (ii) CSS: Cascading Style Sheets fondly referred to as CSS is a simply designed language intended to simplify the process of making web pages presentable. CSS allows you to apply styles to web pages. More importantly, CSS enables you to do this independent of the HTML that makes up each web page.
+(iii) JavaScript: JavaScript is a famous scripting language used to create magic on the sites to make the site interactive for the user. It is used to enhancing the functionality of a website to running cool games and web-based software.
+ (iv) AJAX: Ajax is an acronym for Asynchronous Javascript and XML. It is used to communicate with the server without refreshing the web page and thus increasing the user experience and better performance.
+There are many other languages through which one can do front-end development depending upon the framework for example Flutter user Dart, React uses JavaScript and Django uses Python, and much more.
+
+Front End Frameworks and Libraries: 
+ 
+___________
+HTML
+___________
+
+CSS
+
+ ->CSS Frameworks
+     =>Bootstrap
+     =>Tailwind CSS
+     =>Bulma
+     =>Foundation
+     =>Primer CSS
+     =>Spectre CSS
+     =>Materialize CSS
+     =>Onsen UI
+     =>Semantic UI
+     =>Blaze UI
+     =>Pure CSS
+     =>Tachyons
+ ->CSS Preprocessors
+   SASS
+   LESS
+___________
+
+JavaScript:
+
+ ->JavaScript Technology
+    =>ES6
+    =>TypeScript
+ ->JavaScript Frameworks
+    =>AngularJS
+       =->Angular ngx Bootstrap
+       =->Angular PrimeNG
+       =->Angular Material UI
+    =>VueJS
+       =->Nuxt.js
+    =>script.aculo.us
+ ->JavaScript Libraries
+   =>jQuery
+       =->jQuery UI
+       =->jQuery Mobile
+       =->jQWidgets
+       =->jQuery EasyUI
+   =>ReactJS
+       =->Next.js
+       =->Ant Design
+       =->React Desktop
+       =->React Rebass
+       =->React Bootstrap
+       =->React Reactstrap
+       =->Blueprint.js
+       =->React Suite
+       =->React.js Evergreen
+       =->React Material UI
+   =>P5.js
+   =>Fabric.js
+   =>D3.js
+   =>Collect.js
+   =>Underscore.js
+   =>Lodash
+   =>TensorFlow.js
+
+   ---------------XX-----------XX--------------
+
+--------------------------------------------------------------------
+
+2. Backend Languages: The back end portion is built by using some languages which are discussed below: 
+ 
+-------
+
+  (i) PHP: PHP is a server-side scripting language designed specifically for web development. Since PHP code executed on the server-side, so it is called a server-side scripting language.
+ (ii) Node.js: Node.js is an open-source and cross-platform runtime environment for executing JavaScript code outside a browser. You need to remember that NodeJS is not a framework, and it’s not a programming language. Most people are confused and understand it’s a framework or a programming language. We often use Node.js for building back-end services like APIs like Web App or Mobile App. It’s used in production by large companies such as Paypal, Uber, Netflix, Wallmart, and so on.
+(iii) Python: Python is a programming language that lets you work quickly and integrate systems more efficiently.
+ (iv) Ruby: Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. Ruby is a pure Object-Oriented language developed by Yukihiro Matsumoto. Everything in Ruby is an object except the blocks but there are replacements too for it i.e procs and lambda. The objective of Ruby’s development was to make it act as a sensible buffer between human programmers and the underlying computing machinery.
+  (v) Java: Java is one of the most popular and widely used programming languages and platforms. It is highly scalable. Java components are easily available.
+ (vi) JavaScript: JavaScript can be used as both (front end and back end) programming.
+(vii) Golang: Golang is a procedural and statically typed programming language having the syntax similar to C programming language. Sometimes it is termed as Go Programming Language.
+viii) C# :C# is a general-purpose, modern and object-oriented programming language pronounced as “C sharp”.
+ (ix) DBMS: The software which is used to manage database is called Database Management System (DBMS).
+
+----------------
+
+Back End Frameworks and Technology:
+
+PHP:
+  ->Framework: Laravel
+  ->CMS: WordPress
+
+NodeJS:
+  ->Framework: Express
+
+Python:
+  ->Framework: Django
+  ->Package Manager: Python PIP
+
+Ruby:
+  ->Framework: Ruby on Rails
+
+Java:
+  ->Framework: Spring, Hibernate
+
+C#:
+  ->Framework: .NET
+
+Database:
+  ->Relation Database:
+  ->Postgre SQL
+  ->MariaDB
+  ->MySQL
+
+NoSql Database:
+  ->MongoDB
+
+------------------XX-------------XX-----------
+
+3. Data Format: 
+          Format of data is used by web applications to communicate with each other. It is light weight text based data interchange format which means, it is simpler to read and write.
+
+Below are two common data formats used in web development.
+
+  (i) XML: Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
+ (ii) JSON: JSON or JavaScript Object Notation is a format for structuring data.
+(iii) API: API is an abbreviation for Application Programming Interface which is a collection of communication protocols and subroutines used by various programs to communicate between them.
+
+           Web Protocols: Web protocols are set of rules followed by everyone communicating over the web.
+
+(iv) HTTP: The Hypertext Transfer Protocol (HTTP) is designed to enable communications between clients and servers.
+HTTP works as a request-response protocol between a client and server.
+A web browser may be the client, and an application on a computer that hosts a web site may be the server.
+
