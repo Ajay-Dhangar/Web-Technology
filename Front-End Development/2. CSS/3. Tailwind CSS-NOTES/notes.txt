@@ -1,0 +1,66 @@
+=================
+  Tailwind CSS
+=================
+
+Tailwind CSS is basically a Utility first CSS framework for building rapid custom UI. 
+It is a highly customizable, low-level CSS framework that gives you all of the building blocks that you need. 
+Also, it is a cool way to write inline styling and achieve an awesome interface without writing a single line of your own CSS.
+
+------------------------------------------
+
+Why Tailwind CSS ?
+
+    As we know there are many CSS frameworks but people always choose the fast and easy framework to learn and use in the project. 
+    Tailwind has come with inbuilt a lot of features and styles for users to choose from and is also used to reduce the tendency of writing CSS code and create a beautiful custom UI. 
+    It will help you to overcome the complicated task. 
+    Tailwind CSS creates small utilities with a defined set of options enabling easy integration of existing classes directly into the HTML code.
+
+--------------------------------------------
+
+Installation of Tailwind CSS:
+    Basically Tailwind is available on npm and you can install it using following command:
+       
+       _____________________________________
+        npm install tailwindcss
+       _____________________________________
+
+    After that create ad Tailwind configuration file using the following command:
+
+       _____________________________________
+        npm tailwind init {name of file}
+       _____________________________________
+
+    or
+
+    You can install tailwind by using the yarn command:
+
+      _____________________________________
+       yarn add tailwindcss
+      _____________________________________
+
+    After that create ad Tailwind configuration file using the following command:
+
+      _____________________________________
+       yarn tailwind init {name of file}
+      _____________________________________
+
+Example: It is a basic example of Tailwind CSS that describe how to change background color on mouse hover.
+
+        => Tailwind CSS-LAB
+                     -> EX-1.html
+
+--------------------------------------
+Advantages:
+
+   -> Highly Customizable.
+   -> Enables building complex responsive layout.
+   -> Responsive and development is easy.
+   -> Components creation is easy.
+
+---------------------------------------
+
+Disadvantages:
+
+  -> There is missing headers, navigation components.
+  -> It take time to learn how to implement inbuilt classes.   
+

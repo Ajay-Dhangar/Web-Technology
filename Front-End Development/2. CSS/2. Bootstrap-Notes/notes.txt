@@ -1,0 +1,50 @@
+================
+   Bootstrap
+================
+
+Bootstrap is a free and open-source tool collection for creating responsive websites and web applications. 
+It is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites. 
+Nowadays, the websites are perfect for all the browsers (IE, Firefox, and Chrome) and for all sizes of screens (Desktop, Tablets, Phablets, and Phones). 
+All thanks to Bootstrap developers – Mark Otto and Jacob Thornton of Twitter, though it was later declared to be an open-source project.
+
+----------------------------------
+Why we use Bootstrap ?
+
+  (i) It is Faster and Easier way for Web-Development.
+ (ii) It creates Platform-independent web-pages.
+(iii) It creates Responsive Web-pages.
+ (iv) It designes the responsive web pages for mobile devices too.
+  (v) It is Free and open-source framework available on www.getbootstrap.com
+
+-----------------------------------------
+
+How to use Bootstrap in webpage: 
+         There are two ways to include Bootstrap in the website.
+
+         1. Include Bootstrap from CDN links:
+    
+            Example:
+                  => In Bootstrap-LAB
+                         -> EX-1.html
+            
+        2. Download Bootstrap from getbootstrap.com and use it:
+               Goto www.getbootstrap.com and click Getting Started. 
+               Click on the Download Bootstrap button.
+            
+            -> A.zip file would get downloaded. Extract the zip file and go in the distribution folder. 
+               It contains two folders named as CSS and JS.
+
+               -----------------------------------------------------------------------------
+
+                  <link rel=”stylesheet” type=”text/css” href=”css/bootstrap.min.css”>
+                  <script src=”js/bootstrap.min.js”> </script>
+                  <script src=”https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js”>
+                  </script>
+
+              ------------------------------------------------------------------------------
+            
+            -> Add the file link to the HTML document and then open the web page using web browsers.
+                 Example:
+                      => In Bootstrap-LAB
+                         -> EX-2.html
+            
