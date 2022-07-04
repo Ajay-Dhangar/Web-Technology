@@ -1,0 +1,39 @@
+==============
+ Semantic UI
+==============
+
+Semantic UI is an open-source framework that uses CSS and jQuery to build great user interfaces. 
+It is the same as a bootstrap for use and has great different elements to use to make your website looks more amazing. 
+It uses a class to add CSS to the elements.
+
+--------------------------------------------------------
+
+Why Semantic UI?
+
+Semantic UI is becoming extremely popular due to the following reasons:
+
+   -> It offers a variety of components that can be used easily.
+   -> It is open source so has good community support.
+   -> It is easy to use and learn.
+   -> It provides an elegant look and makes UI more interactive with minimal effort.
+   -> It unpacks a variety of themes and CSS, JavaScript, and font files.
+   -> It provides a lightweight user experience.
+
+Installing Semantic UI: We can use Semantic UI in the following two ways.
+
+Method 1: Using CDN Link: In this method, we will add CDN links to the head section of the code without installing it.
+   
+    ____________________________________________________________________________________________________________
+    <link href=”https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css” rel=”stylesheet” />
+    <script src=”https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js”></script>
+    ____________________________________________________________________________________________________________
+
+Method 2: The second way of using is the downloading min.css file of the Semantic UI whose link you can find on the semantic UI official site and use it directly and it works offline.
+
+    Now let’s understand the working of Semantic UI using an example.
+
+        Example: This example creates a simple Log In Form.   
+            
+            => Semantic UI-LAB
+                    -> EX-1.html
+                    

@@ -1,0 +1,50 @@
+=====================
+   Materialize CSS
+=====================
+
+Materialize CSS is a design language that combines the classic principles of successful design along with innovation and technology. 
+It is created and designed by Google. 
+Google’s goal is to develop a system of design that allows for a unified user experience across all its products on any platform.
+
+------------------------------
+
+Why Materialize CSS?
+  -> It is easier to use and makes the web page dynamic and responsive.
+  -> It makes the web-page which is compatible in Mobile, Tablets, laptops as well.
+  -> Freely available on https://materializecss.com/
+
+Installing Materialize CSS:
+    Method 1: Go to the official documentation of the Materialize https://materializecss.com/getting-started.html and download the latest version available. 
+    After that put the downloaded materialize.min.js and materialize.min.css file in a directory of your project.
+
+ 
+
+   Method 2: You can use CDN link to run the code without installing it. 
+   Include the following CDN links inside the head tag.
+   
+   _______________________________________________________________________________________________________________________________
+    <!– Compiled and minified CSS –>
+    <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css”>
+    
+    <!– Compiled and minified JavaScript –>
+    <script src=”https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js”></script>
+   _______________________________________________________________________________________________________________________________
+
+   Method 3: Install Materialize using npm. Before installing it, first install node.js and npm and then run the following command:
+    __________________________________
+     npm install materialize-css@next
+    __________________________________
+
+   Method 4: You can install Materialize using Bower package manager. Use the following command to install it.
+    __________________________________
+     bower install materialize
+    __________________________________
+
+Now let’s understand the working of Materialize using an example.
+
+Example: In this example, we have created a simple breadcrumb with the current location BreadCrumb. 
+It means you are on the BreadCrumb page and it is under Materialize category and HTML5 points HTML5 page.
+
+   => Materialize CSS-LAB
+            -> EX-1.html
+        

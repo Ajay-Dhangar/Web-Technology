@@ -1,0 +1,45 @@
+==============
+   Lodash
+==============
+Lodash is a JavaScript library that works on the top of underscore.js. 
+It helps in working with arrays, strings, objects, numbers, etc. 
+It provides us with various inbuilt functions and uses a functional programming approach which that coding in JavaScript easier to understand because instead of writing repetitive functions, tasks can be accomplished with a single line of code. 
+It also makes it easier to work with objects in JavaScript if they require a lot of manipulation to be done upon them.
+
+------------------------------------------------
+
+Why Lodash ?
+  It provides various inbuilt functions for collections, arrays, to manipulate objects, and other utility methods that we can use directly instead of writing them from scratch. 
+  It makes it easier to iterate over the arrays, strings as well as objects. 
+  Its modular methods enable the creation of composite functions easier.
+  
+  Installation: It can be used directly using the CDN link or can be installed using npm or yarn.
+  
+  Method 1: We can directly use the file in the browser. 
+  Go to the official documentation and copy the lodash.min.js file CDN link and paste this link inside the head section.
+
+    _____________________________________________________________________________________________________________
+     <script type=”text/JavaScript” src = “https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js”></script>
+    _____________________________________________________________________________________________________________
+
+Method 2: We can install it with npm. Make sure that you have Node.js and npm installed.
+    _______________________
+     npm install lodash
+    _______________________
+
+If you are using yarn then you can use the following command:
+    _______________________
+     yarn install lodash
+    _______________________
+
+Now in order to use the Lodash library, you need to require it in the code file.
+    _______________________________
+     const _ = require("lodash"); 
+    _______________________________
+
+Now let’s understand how to use Lodash with the help of the code example.
+
+Example: In this example, we will simply create an empty string using the lodash _.stubString() method.
+
+     => Lodash-LAB
+            -> index.js

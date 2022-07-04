@@ -1,0 +1,39 @@
+====================
+   TensorFlow.js
+====================
+
+TensorFlow.js is a JavaScript library for training and deploying machine learning models on web applications and in Node.js. 
+You can develop the machine learning models from scratch using tensorflow.js or can use the APIs provided to train your existing models in the browser or on your Node.js server.
+
+-----------------------------------------------------------
+
+Why TenserFlow.js?
+
+    TensorFlow has a lot of machine learning libraries and is well-documented. 
+    It provides a few key functions and ways for doing so. 
+    TensorFlow is sometimes referred to as a “Google” product. 
+    A wide range of machine learning and deep learning algorithms are included. 
+    For handwritten digit classification, image recognition, word embedding, and the generation of other sequence models, TensorFlow can train and run deep neural networks.
+    
+----------------------------------------------------------
+
+Installing TenserFlow.js: There are following two methods by which we can install and use TenserFlow.js.
+
+   Method 1: We can use CDN link to run Tensorflow.js code without installing it.  Add the following CDN link into the script tag to the head section of the HTML file.
+   
+   ________________________________________________________________________________________________
+       <script src=”https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js”></script>
+   ________________________________________________________________________________________________
+   
+   Method 2: We can install it using npm. Before installing TensorFlow.js through npm, first, make sure you have installed Node.js and npm.
+   
+   ________________________________________________________
+        npm install @tensorflow/tfjs
+   ________________________________________________________
+   
+   Let’s understand the working of TenserFlow.js using an example.
+   
+   Example: In this example, we create an input tensor and weight tensor and pass it to the bincount function and see how bincount calculates the value for the output tensor using Tensorflow.js tf.bincount() Function.
+
+         =>TenserFlow-LAB 
+              -> index.js

@@ -1,0 +1,50 @@
+=================
+    Bulma
+=================
+
+Bulma is an Open source CSS framework developed by Jeremy Thomas. This framework is based on the CSS Flexbox property. 
+It is highly responsive and minimizes the use of media queries for responsive behavior.
+------------------------
+Why Bulma?
+  -> It is easy to learn.
+  -> It is used to create responsive design for all devices (desktops, tablets, and mobiles).
+  -> It is easy to read and write the code.
+  -> It can be combined with any JavaScript framework (AngularJS, ReactJS).
+  -> It is customizable and modularizable.
+  -> It is a lightweight, modern CSS framework, which uses Flexbox.
+
+Bulma Installation Steps: To install the Bulma using the following steps, first you need to install node.js. 
+You can see the articles to install Node.js in Windows or Linux System.
+
+    -> Using NPM:
+    ________________________
+      npm install bulma
+    ________________________
+
+    -> Using Yarn:
+    ________________________
+      yarn add bulma
+    ________________________
+    
+    -> Using Bower:
+    ________________________
+      bower install bulma
+    ________________________
+    
+After installation of Bulma, import the CSS file into your project using the following code snippet:
+    ___________________________________
+     @import 'bulma/css/bulma.css'
+    ___________________________________
+    
+CDN Link: Without installing the Bulma, you can directly run the Bulma code using Bulma CDN link. Add this link inside the head section of the code.
+    __________________________________________________________________________________________
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css'>
+    __________________________________________________________________________________________
+
+Now let’s understand the working of it using an example.
+    
+    Example: The below example illustrates the text transformation class.
+    
+      => Bulma-LAB
+            -> EX-1.html
+            

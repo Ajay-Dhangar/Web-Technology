@@ -1,0 +1,29 @@
+===============
+  Collect.js
+===============
+
+Collect.js is the javascript library for collecting data from tree-based structures. 
+This library is used on JavaScript Array and Objects.
+
+-------------------------------------------------
+
+Why Collect.js ?
+  It is a fluent and convenient wrapper for working with arrays and objects. 
+  It provides us with different functions that help in working with data much easier. 
+  It also helps the programmers to write more concise code and easier to maintain the JavaScript code.
+
+ 
+
+Installation: We can install it by using npm. To install it, first make sure that you have installed Node.js and npm.
+    ____________________________
+      npm install collect-js
+    ____________________________
+Using CDN Link: We can use CDN Link to run the code instead of installing it. 
+Go to https://cdnjs.com/libraries/collect.js and add the following CDN link inside the head section.
+
+<script src=”https://cdnjs.cloudflare.com/ajax/libs/collect.js/4.29.3/collect.min.js” integrity=”sha512eHrXl+YqedGIdIKP5YOueP0z7RfRgmo7R1d8pTvEOhikZIFpD54dXbwp9os9z4hVHVHZeRHw0qfF93lDsQDQA==” crossorigin=”anonymous” referrerpolicy=”no-referrer”></script>
+
+Example: In this example, we will get the array or object represented by the collection using all() method.
+
+    => Collect-LAB 
+         -> index.js

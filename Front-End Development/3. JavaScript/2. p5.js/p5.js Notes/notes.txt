@@ -1,0 +1,24 @@
+=============
+   p5.js
+=============
+
+p5.js is a JavaScript library for creative coding, with attention to making code accessible and inclusive for artists, designers, educators, beginners, and anyone else. 
+It is a free and open-source library i.e. it can be accessible to everyone.
+Using the metaphor of a sketch, p5.js features a full set of drawing functionality. 
+However, you’re not limited to your drawing canvas. You’ll consider your whole browser page as your sketch, including HTML5 objects for text, input, video, webcam, and sound.
+
+Steps to Download & Install p5.js library: It is the easiest way to download and install p5.js library to run code locally. 
+Visit the website https://p5js.org/download/ to download the file and set up a local server. 
+Then run the local server within the download folder and go to the link http://localhost:{your-port-num}/empty-example. 
+After installing the library, you need to include a js file inside <head> section.
+__________________________________________
+  <script src=”../p5.min.js”></script>
+__________________________________________
+
+Using CDN Link: It is an alternative to download p5.js library. You can use CDN link inside head section to run the code without installing it.
+________________________________________________________________________________
+ <script src=”https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js”></script>
+________________________________________________________________________________
+Example:
+      => p5.js-LAB
+           -> EX-1.html

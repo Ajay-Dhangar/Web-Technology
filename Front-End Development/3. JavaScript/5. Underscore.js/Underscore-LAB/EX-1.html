@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js">
+    </script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var arr = [{
+            prop1: "10",
+            prop2: "07",
+            prop3: "Geeks"
+        }, {
+            prop1: "12",
+            prop2: "86",
+            prop3: "for"
+        }, {
+            prop1: "11",
+            prop2: "58",
+            prop3: "Geeks."
+        }];
+        console.log(_.max(arr, function(o) {
+            return o.prop2;
+        }));
+    </script>
+</body>
+
+</html>

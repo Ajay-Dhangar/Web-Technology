@@ -1,0 +1,42 @@
+===================
+   Pure CSS
+===================
+
+Pure CSS is a CSS framework. 
+It is a set of free and open-source tools for building responsive websites and web applications. 
+Yahoo developed this, which is used to make websites that are quicker, more elegant, and more responsive. 
+It is a viable alternative to Bootstrap. Pure CSS is designed with keeping responsive design in mind. 
+So we get prebuilt responsive styles that stay the same on all platforms.
+
+----------------------------------------------
+
+Why Pure CSS ?
+  It designs responsive web pages for mobile devices.
+  It is a Free and open-source framework available on https://purecss.io/
+  No dependency on JavaScript and its library.
+  It also supports shadows and colors.
+  A great alternative to Bootstrap.
+  It is a Faster and Easier way for Web-Development.
+
+
+--------------------------------------------------
+
+Installing Pure CSS: There are two methods by which we can install and run the code.
+
+  1. Using NPM Install: You can add Pure CSS to your project through npm. This is our recommended way to integrate styles into your project’s build process and toolchain. To run this command, first, need to install the node.
+  ___________________________________
+    $ npm install purecss --save
+  ___________________________________
+
+  2. Using CDN Link: You can add Pure CSS to your web page via the free unpkg CDN link. Just add the following <link> element into your page <head> section, before your project’s style sheets.
+   ______________________________________________________________________________________________________________________________________________________________________________________________
+   <link rel=”stylesheet” href=”https://unpkg.com/purecss@2.0.5/build/pure-min.css” integrity=”sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd” crossorigin=”anonymous”>
+   ______________________________________________________________________________________________________________________________________________________________________________________________
+  
+  Now let’s understand the working of pure CSS using an example.
+  
+  Example: The following example shows a simple dropdown menu and a drop-down with different background colors created by using the background-color property of CSS.
+
+       => Pure CSS-LAB
+               -> EX-1.html
+

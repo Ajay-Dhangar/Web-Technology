@@ -1,0 +1,54 @@
+==================
+  Underscore.js
+==================
+
+Underscore.js is a lightweight JavaScript library and not a complete framework that was written by Jeremy Ashkenas. 
+It provides utility functions for a variety of use cases in our day-to-day common programming tasks. 
+Underscore.js provides a lot of features that make our task easy to work with objects. 
+It can be used directly inside a browser and also with Node.js.
+
+-----------------------------------------------------
+
+Why Underscore.js ?
+   With just under six kilobytes in size, this library basically provides us with a whole bunch of useful JavaScript functions for making our life easier. 
+   There are literally hundreds of different functions available that support both our workaday functional helpers such as the map and filter functions, as well as more specialized ones such as JavaScript templating, function binding, deep equality testing, creating quick indexes, and many more. 
+   Underscore functions basically falls under four major categories which are functions that can be used for manipulating arrays, functions that can be used for manipulating objects, functions that can be used for manipulating both arrays as well as objects, and functions that can be used for manipulating other functions itself.
+ 
+-----------------------------------------------------------  
+
+Installation Process: We can use Underscore.js directly inside the browser and also with node.js. 
+We will discuss both of these methods.
+
+
+Method 1: Use directly inside the browser. 
+
+   Visit the official website (https://underscorejs.org/) and download the latest underscore-min.js file UMD available. 
+   After that include the following CDN link inside your code in order to run the underscore.js code inside the browser.
+ _______________________________________________________________________________________________
+   <script type="text/JavaScript" src="https://underscorejs.org/underscore-min.js"></script>
+ _______________________________________________________________________________________________
+
+Method 2: We can install it with npm. Make sure that you have Node.js and npm installed.
+    _________________________
+     npm install underscore
+    _________________________
+
+You can also install with yarn
+    _________________________
+     yarn install underscore
+    _________________________
+
+Now let’s understand the working of code through an example.
+
+Example: In this example, we will simply see how to find the maximum element from the array list passed. 
+For this, we will use _.max() Function.
+
+       => Underscore-LAB 
+               -> index.html
+
+Features of Underscore:
+
+   Perform common operations of data like arrays, objects, JSON files, etc.
+   Compatible with other JS libraries like jQuery to perform DOM operations.
+   Contains function for data manipulation.
+

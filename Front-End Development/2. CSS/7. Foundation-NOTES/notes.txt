@@ -1,0 +1,47 @@
+
+=================
+  Foundation
+=================
+
+A Foundation is an open-source and responsive front-end framework created by ZURB in September 2011 that makes it simple to create stunning responsive websites, apps, and emails that operate on any device. 
+Many companies, like Facebook, eBay, Mozilla, Adobe, and even Disney, use it.
+
+The framework is based on bootstrap, which is similar to SaaS. It’s more complex, versatile, and configurable. 
+It also comes with a command-line interface, making it simple to use with module bundlers. 
+Email framework provides you with responsive HTML emails, which can be read on any device.
+
+------------------------------------------------------------
+
+Why Foundation?
+
+  -> It allows for speedier development by utilizing the Sass compiler, which is significantly faster than the default compiler.
+  -> It adds pricing tables, switches, joyride, range sliders, lightbox, and more to your website.
+  -> For faster coding and control, it includes development packages such as Grunt and Libsass.
+  -> Foundation for Apps allows you to build fully responsive web applications.
+  -> It is open source and has good community support.
+
+How to use Foundation?
+
+   Method 1: Go to the official documentation https://get.foundation/ and click on the Download All button to use it offline.
+   
+   Method 2: Use the following CDN Links inside the head tag.
+    
+    _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+    <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/foundation-sites@6.5.1/dist/css/foundation.min.css” integrity=”sha256-1mcRjtAxlSjp6XJBgrBeeCORfBp/ppyX4tsvpQVCcpA= sha384-b5S5X654rX3Wo6z5/hnQ4GBmKuIJKMPwrJXn52ypjztlnDK2w9+9hSMBz/asy9Gw sha512-M1VveR2JGzpgWHb0elGqPTltHK3xbvu3Brgjfg4cg5ZNtyyApxw/45yHYsZ/rCVbfoO5MSZxB241wWq642jLtA==” crossorigin=”anonymous”>
+
+    <script src=”https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js”></script>
+    
+    <script src=”https://cdn.jsdelivr.net/npm/foundation-sites@6.5.1/dist/js/foundation.min.js” integrity=”sha256-WUKHnLrIrx8dew//IpSEmPN/NT3DGAEmIePQYIEJLLs= sha384-53StQWuVbn6figscdDC3xV00aYCPEz3srBdV/QGSXw3f19og3Tq2wTRe0vJqRTEO sha512-X9O+2f1ty1rzBJOC8AXBnuNUdyJg0m8xMKmbt9I3Vu/UOWmSg5zG+dtnje4wAZrKtkopz/PEDClHZ1LXx5IeOw==” crossorigin=”anonymous”></script>
+    _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Now let’s understand how to use it using an example.
+
+Example: This example illustrates the use of customize column for the menu.
+
+      => Foundation-LAB 
+                -> EX-1.html   
+
+
+    Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above
+

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css" />
+</head>
+
+<body>
+    <style>
+        .row {
+            padding: 1rem 0;
+        }
+        
+        .singleline {
+            padding-right: 1rem;
+        }
+    </style>
+    <div class="row">
+        <h2>Customize Menu using Foundation</h2>
+
+        <!--Basic Menu-->
+        <div class="columns">
+            <h4>Basic Menu</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="columns">
+            <ul class="menu">
+                <li><a href="#">
+                    Programming Language
+                </a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">DSA</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Alignment Menu-->
+    <div class="row">
+        <div class="columns">
+            <h4>Alignment Menu</h4>
+            <ul class="menu align-right">
+                <li><a href="#">
+                    Programming Language
+                </a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">DSA</a></li>
+            </ul>
+            <div>
+                <ul class="menu expanded">
+                    <li><a href="#">Articles</a></li>
+                </ul>
+                <ul class="menu expanded">
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">DSA</a></li>
+                </ul>
+                <ul class="menu expanded">
+                    <li><a href="#">
+                        Programming Language
+                    </a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">DSA</a></li>
+                </ul>
+                <ul class="menu expanded">
+                    <li><a href="#">
+                        Programming Language
+                    </a></li>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">DSA</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Vertical Menu-->
+    <div class="row">
+        <div class="column">
+            <h4>Vertical Menu</h4>
+            <ul class="vertical menu">
+                <li><a href="#">
+                    Programming Language
+                </a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">DSA</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Simple Style-->
+    <div class="row">
+        <div class="column">
+            <h4>Simple Style</h4>
+            <ul class="menu simple">
+                <li class="singleline">
+                    <a href="#">DSA</a>
+                </li>
+                <li><a href="#">
+                    Programming Language
+                </a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Nested Style-->
+    <div class="row">
+        <div class="column">
+            <h4>Nested Style</h4>
+            <ul class="vertical menu">
+                <li>
+                    <a href="#">DSA</a>
+                    <ul class="nested vertical menu">
+                        <li><a href="#">Contribute</a></li>
+                        <li><a href="#">
+                            Programming Language
+                        </a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Programming Language</a></li>
+                <li><a href="#">DSA</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js">
+    </script>
+    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js">
+    </script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+
+</html>

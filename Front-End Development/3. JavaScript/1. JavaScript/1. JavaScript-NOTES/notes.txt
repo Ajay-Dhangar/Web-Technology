@@ -1,0 +1,103 @@
+================
+   JavaScript
+================
+
+JavaScript is the world most popular lightweight, interpreted compiled programming language. 
+It is also known as scripting language for web pages. 
+It is well-known for the development of web pages, many non-browser environments also use it. 
+JavaScript can be used for Client-side developments as well as Server-side developments.
+
+JavaScript can be added to your HTML file in two ways:
+
+   -> Internal JS: We can add JavaScript directly to our HTML file by writing the code inside the <script> tag. 
+        The <script> tag can either be placed inside the <head> or the <body> tag according to the requirement.
+
+   -> External JS: We can write JavaScript code in other file having an extension .js and then link this file inside the <head> tag of the HTML file in which we want to add this code.
+----------------------------------------------------------------------
+
+-> JavaScript is not only used for creating web pages but also creates millions of well-paid jobs all around the globe. 
+   Save your valuable time by enroling in this Fork Javascript -Self Paced Course . 
+   In this course, learn the basics concepts of JavaScript like- functions & arrays in JavaScript, working of JS Engines, and much more.
+
+-> Once you are done strengthening your foundational skills with this course, it is recommended for you to start learning Advanced Javascript-Self Paced Course and start your JavaScript programming journey today!.
+
+Syntax:
+_________________________________
+<script>
+    // JavaScript Code
+</script>
+_________________________________
+
+Example 1: It is the basic example of JavaScript code embedded in HTML code.
+  => JavaScript-LAB
+      -> EX-1.html
+Example 2: In this example, we will make a simple function and print the values.
+  => JavaScript-LAB
+      -> EX-2.html
+
+------------------------------------------------------------
+Are JavaScript and HTML the same?
+
+  -> JavaScript is an advanced programming language that makes web pages more interactive and dynamic whereas HTML is a standard markup language that provides the primary structure of a website.
+  -> JavaScript simply adds dynamic content to websites to make them look good and HTML work on the look of the website without the interactive effects and all.
+  -> JavaScript manipulates the content to create dynamic web pages whereas HTML pages are static which means the content cannot be changed.
+  -> JavaScript is not cross-browser compatible whereas HTML is cross-browser compatible.
+  -> JavaScript can be embedded inside HTML but HTML can not be embedded inside JavaScript.
+
+---------------------------------------------------------------
+
+What is JavaScript used for?
+
+    -> Web pages with interactive elements: User interaction with web pages is enabled through JavaScript. 
+                                            On a web page, JavaScript has essentially no bounds.
+
+    -> Developing online and mobile applications: For web and mobile app development, developers can employ a variety of JavaScript frameworks.
+
+    -> Creating web servers and server applications: Aside from websites and apps, developers may use JavaScript to create simple web servers and Node.js to construct backend infrastructure.
+
+    -> Game Development: Browser games can also be made using JavaScript. 
+                         Beginning developers can use these to hone their JavaScript skills.
+--------------------------------------------------------------------
+
+Is JavaScript easy to learn?
+    -> In comparison to other programming languages such as C++, Ruby, and Python, JavaScript is simple and easy to learn. 
+       The difficulty of learning JavaScript is primarily determined by your knowledge of other programming languages. 
+       Understanding HTML is the first step toward learning JavaScript. Because JavaScript is most commonly used as part of a web page, which can only be learned through HTML.
+-----------------------------------------------
+
+What can we build using JavaScript ?
+    JavaScript is a widely-used programming language. 
+    Given below are some domains/products that can be built using JavaScript:
+
+Websites: JavaScript helps us to add behavior of our website. 
+          It helps users to interact with the website. 
+          For eg. clicking on buttons, saving details, uploading details on the website, etc.
+
+Web Servers: We can make robust server applications using JavaScript. 
+             To be precise we use JavaScript frameworks like Node.js and Express.js to build these servers.
+
+Game Development: In Game Development industry, JavaScript is used widely. 
+                  With the addition of HTML5 Canvas, it’s now possible to make 2D and 3D games in JavaScript very efficiently.
+
+3D Drawings: JavaScript in addition with HTML Canvas is used to make three-dimensional graphics.
+
+Mobile Apps: Mobile applications are the most popular modes of communicating these days. 
+             JavaScript also used to design mobile applications. 
+             There are many JavaScript frameworks using which we can make android, IOS, and hybrid apps.
+
+Smartwatch Apps: The popular smartwatch maker Pebble has created Pebble.js, a small JavaScript framework that allows a developer to create an application for the Pebble line of watches in JavaScript.
+
+----------------------------------------------------------------
+
+Why to learn JavaScript ?
+
+ -> JavaScript is the most popular and hence the most loved language around the globe. Apart from this, there are abundant reasons to learn it. Below are a listing of few important points:
+      => No need of compilers: Since JavaScript is an interpreted language, therefore it does not need any compiler for compilations.
+
+      => Used both Client and Server-side: Earlier JavaScript was used to build client-side applications only, but with the evolution of its frameworks namely Node.js and Express.js, it is now widely used for building server-side applications too.
+
+      => Helps to build a complete solution: As we saw, JavaScript is widely used in both client and server-side applications, therefore it helps us to build an end-to-end solution to a given problem.
+
+      => Used everywhere: JavaScript is so loved because it can be used anywhere. It can be used to develop websites, games or mobile apps, etc.
+      
+      => Huge community support: JavaScript has a huge community of users and mentors who love this language and take it’s legacy forward.
