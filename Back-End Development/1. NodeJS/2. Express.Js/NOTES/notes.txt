@@ -1,0 +1,42 @@
+================
+   Express.js
+================
+
+Express.js is a small framework that works on top of Node.js web server functionality to simplify its APIs and add helpful new features. 
+It makes it easier to organize your application’s functionality with middleware and routing. 
+It adds helpful utilities to Node.js HTTP objects and facilitates the rendering of dynamic HTTP objects.
+
+Why Express ?
+
+    Develops Node.js web applications quickly and easily.
+    It’s simple to set up and personalise.
+    Allows you to define application routes using HTTP methods and URLs.
+    Includes a number of middleware modules that can be used to execute additional requests and responses activities.
+    Simple to interface with a variety of template engines, including Jade, Vash, and EJS.
+    Allows you to specify a middleware for handling errors.
+    Installing Express:
+
+We can install it with npm. Make sure that you have Node.js and npm installed.
+
+Step 1: Creating a directory for our project and make that our working directory.
+____________________
+   $ mkdir azc
+   $ cd azc
+____________________
+Step 2: Using npm init command to create a package.json file for our project.
+____________________
+   $ npm init
+____________________
+This command describes all the dependencies of our project. 
+The file will be updated when adding further Installing Express
+
+Step 3: Now in your azc(name of your folder) folder type the following command line:
+__________________________________
+  $ npm install express --save
+__________________________________
+Now let’s understand the working of express.js through an example.
+
+Project Structure: It will look like the following.
+
+
+Example: Write the following code in app.js.
