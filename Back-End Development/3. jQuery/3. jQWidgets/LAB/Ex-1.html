@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/jqwidgets/styles/jqx.base.css" type="text/css" />
+    <script type="text/javascript" src="/scripts/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="/jqwidgets/jqxdatetimeinput.js"></script>
+    <script type="text/javascript" src="/jqwidgets/jqxcalendar.js"></script>
+    <script type="text/javascript" src="/jqwidgets/globalization/globalize.js"></script>
+    <script tyle="text/javascript" src="/jqwidgets/jqx-all.js"></script>
+</head>
+
+<body>
+    <center>
+        <h1 style="color: green;">
+            Aj Zero Coding
+        </h1>
+
+        <h3>
+            jQWidgets jqxCalendar backText Property
+        </h3>
+
+        <div id='jqxcal'></div>
+    </center>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#jqxcal").jqxCalendar({
+                theme: 'energyblue',
+                width: '400px',
+                height: '300px',
+                enableTooltips: true,
+                backText: 'Back Option'
+            });
+        });
+    </script>
+</body>
+
+</html>

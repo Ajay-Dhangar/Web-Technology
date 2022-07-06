@@ -1,0 +1,51 @@
+=================
+  jQuery Mobile
+=================
+
+jQuery Mobile is an HTML5 based user interface system designed to make responsive websites and apps that are accessible on all smartphone, tablet, and desktop devices.
+
+---------------------------------
+
+Why jQuery Mobile?
+
+   jQuery Mobile framework takes the “write less, do more” mantra to the next level. 
+   Instead of writing unique applications for each mobile device or OS, it allows you to design a single highly-branded responsive website or application that will work on all popular smartphone, tablet, and desktop platforms. 
+   It uses features of jQuery and jQuery UI for making mobile-compatible websites. It is used for making responsive websites and apps. 
+   It is open-source and a cross-platform-compatible framework.
+-----------------------------------------
+      
+Download and Install jQuery Mobile: Visit the home page of the website i.e. jquerymobile.com/, you will see two options to download it.
+     
+    -> Custom Download − This option is used to download a customized version of the library.
+    -> Latest Stable − This option is used to get the stable and latest version of the library.
+    
+    Click on any of the two options to download the zipped files. After downloading the zip file, unzip the files and save them in a folder. 
+    After that, create an HTML file like index.html and add file links inside the head section of the code.
+    __________________________________________________________________________________________________
+       // Including stylesheets file
+       <link rel=”stylesheet” href=”jquery.mobile-1.4.5.min.css” />
+       
+       // Including the jQuery library
+       <script src=”jquery-1.11.1.min.js”></script>
+       
+       // Including the library file
+       <script src=”jquery.mobile-1.4.5.min.js”></script>
+    __________________________________________________________________________________________________   
+      
+    Using CDN Link: Without downloading the jQuery Mobile files, you can include CDN links inside the head section to run the code. The description of these 3 CDN links are –
+    
+    __________________________________________________________________________________________________   
+       // Including stylesheets file
+       <link rel=”stylesheet” href=”http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css” />
+       
+       // Including the jQuery library
+       <script src=”http://code.jquery.com/jquery-1.11.1.min.js”></script>
+       
+       // Including the library file
+       <script src=”http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js”></script>
+    __________________________________________________________________________________________________
+    
+Example: In this example, we will create a simple search Input field.
+        
+    => LAB 
+        ->Ex-1.html

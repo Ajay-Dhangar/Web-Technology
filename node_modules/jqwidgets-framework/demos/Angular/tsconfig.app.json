@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/app"
+  },
+  "include": [
+    "src/splitlayout/tablayout/*.ts",
+    "polyfills.ts"
+  ],
+  "angularCompilerOptions": {
+    "enableIvy": true}
+}

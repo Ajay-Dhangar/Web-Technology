@@ -1,0 +1,28 @@
+.container {
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: green;
+}
+
+span {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+
+i {
+    margin: 0 8px;
+}

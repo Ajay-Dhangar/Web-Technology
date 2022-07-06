@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>jQWidgets Material Design</title>
+    <!-- add the jQWidgets base styles and one of the theme stylesheets -->
+    <link rel="stylesheet" href="/jqwidgets/styles/jqx.base.css" type="text/css" />
+    <link rel="stylesheet" href="/jqwidgets/styles/jqx.material.css" type="text/css" />
+    <!-- add the jQWidgets framework -->
+    <script type="text/javascript" src="/jqwidgets/jqxcore.js"></script>
+    <!-- add one or more widgets -->
+    <script type="text/javascript" src="/jqwidgets/jqxbuttons.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            const button = new jqxButton("button", {
+                width: '120px',
+                height: '35px',
+                theme: 'material'
+            });
+        };
+    </script>
+</head>
+
+<body>
+    <button id="button">Button</button>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+========================
+     jQuery
+========================
+
+jQuery is an open-source JavaScript library that simplifies the interactions between an HTML/CSS document, or more precisely the Document Object Model (DOM), and JavaScript. Elaborating the terms, it simplifies HTML document traversing and manipulation, browser event handling, DOM animations, Ajax interactions, and cross-browser JavaScript development.
+
+Example: In this example, we are using hover() and css() methods to change the style of heading content on mouse move over.
+
+    => LAB
+        ->EX-1.html
+
+Why to use jQuery?
+    Some of the key points that support the answer for why to use jQuery:
+       -> It helps us to manipulate HTML and CSS
+       -> It helps us to manipulate DOM (Document Object Model) elements
+       -> Provides event methods to trigger and respond to an events on a html page such as mouse click, keypress etc.
+       -> Implements AJAX calls.
+       -> Using jQuery (JavaScript library) on HTML page: There are several ways to start using it on your website.
+
+Use the Google-hosted/Microsoft-hosted content delivery network (CDN) to include a version. Or
+Download it from official website jQuery.com and host it on your server or local filesystem.
+
+-----------------------------------------------------
+
+Advantages:
+   -> Wide range of plug-ins that allows developers to create plug-ins on top of the JavaScript library.
+   -> Large development community.
+   -> It is a lot easier to use compared to standard javascript and other javascript libraries.
+   -> It lets users develop Ajax templates with ease. Ajax enables a sleeker interface where actions can be performed on pages without requiring the entire page to be reloaded.
+   -> Being Light weight and a powerful chaining capabilities makes it more strong.
+------------------------------------------------
+
+Disadvantages:
+   -> While jQuery has an impressive library in terms of quantity, depending on how much customization you require on your website. The functionality may be limited thus using raw javascript may be inevitable in some cases.
+   -> The JQuery javascript file is required to run the commands, while the size of this file is relatively small (25-100KB depending on the server). It is still a strain on the client computer and maybe your web server as well if you intend to host the script on your own web server.

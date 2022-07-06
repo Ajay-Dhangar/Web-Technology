@@ -1,0 +1,51 @@
+====================
+   jQWidgets
+====================
+
+jQWidgets is a JavaScript framework for making web-based applications for PC and mobile devices. 
+It is a very powerful and optimized framework, platform-independent, and widely supported. 
+It has more than 60 UI widget that helps to create attractive UI design.
+
+------------------------------------------------
+
+Download and Installation:
+__________________________________________________________________________________________________
+   Download jQWidget file in zip format from the https://www.jqwidgets.com/download/ link. 
+   After downloading the zip file, extract the files and save them into the folder. 
+   After that create a new HTML file and add the jQWidget code into the file and include the widget link inside the head section.
+__________________________________________________________________________________________________
+
+Installing jQWidgets using npm:
+
+-> Open Node.js command prompt and run the following command –
+    __________________________________________________________________________________________________
+       npm install jqwidgets-framework - demos & scripts
+       or
+       npm install jqwidgets-scripts - scripts
+       or
+       npm install jqwidgets-ng - angular modules
+       __________________________________________________________________________________________________
+
+-> To get the information of jQWidget npm package, use the following command –
+    ____________________________________
+        npm info jqwidgets-framework
+    ____________________________________
+ 
+
+Installing the jQWidgets Bower Package:
+
+-> Open Node.js command prompt and run the following command –
+    ____________________________________
+        bower install jqwidgets
+    ____________________________________
+
+-> To get the information of jQWidget bower package, use the following command –
+    ____________________________________
+        bower info jqwidgets
+    ____________________________________
+
+Example: This example describe the basic example. 
+In this example, we will use jqxCalendar widget to create a calendar and added the back text on it using backText Property.
+    
+        => LAB
+           -> Ex-1.html

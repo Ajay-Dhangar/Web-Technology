@@ -1,0 +1,40 @@
+======================
+     jQuery UI
+======================
+
+jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. 
+Whether you’re building highly interactive web applications, or you just need to add a date picker to a form control, jQuery UI is a perfect choice.
+
+Why jQuery UI ?
+  -> jQuery UI contains a set of plugins that provide new features to the core jQuery library. 
+  -> It is categorized into four groups i.e. interactions, widgets, effects, utilities. 
+  -> It is an open-source library that contains different animation effects and widgets that help in the development of highly interactive user-friendly web applications. 
+  -> This library needs very less maintenance. 
+  -> It can be used with almost all browsers.  
+
+ 
+
+
+Download & Installation:
+   -> Go to the official documentation (https://jqueryui.com/) of the jQueryUI and click on the Custom Download button to download a customized version of the library. 
+      After downloading the zip file, unzip the files and save them in a folder.
+   -> File Structure: The file structure will look like the following.
+   
+   -> Create an HTML file like index.html and add file links inside head section of code.
+       ____________________________________________________________________
+           <link rel=”stylesheet” href=”jqueryui/jquery-ui.min.css”>
+           <script src=”jqueryui/external/jquery/jquery.js”></script>
+           <script src=”jqueryui/jquery-ui.min.js”></script>
+       ____________________________________________________________________
+
+   -> Using CDN Link: Without downloading the jQuery UI files, you can include CDN links inside the head section to run your code.
+        _________________________________________________________________________________________________________
+           <link href=”https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css” rel =”stylesheet”>
+           <script src=”https://code.jquery.com/jquery-1.10.2.js”></script>
+           <script src=”https://code.jquery.com/ui/1.10.4/jquery-ui.js”></script>
+        _________________________________________________________________________________________________________
+
+Example: In this example, we will display the date picker on the page using jQuery UI.
+
+    => LAB 
+         -> EX-1.html

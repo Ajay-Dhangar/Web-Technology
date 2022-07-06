@@ -1,0 +1,36 @@
+===================
+    AngularJS
+===================
+
+AngularJs was originally developed in 2008-2009 by Misko Hevery and Adam Abrons and is now maintained by Google. 
+AngularJS is a Javascript open-source front-end framework that is mainly used to develop single-page web applications(SPAs). 
+It is a continuously growing and expanding framework which provides better ways for developing web applications.
+
+AngularJs was originally developed in 2008-2009 by Misko Hevery and Adam Abrons and is now maintained by Google. 
+AngularJS is a Javascript open-source front-end framework that is mainly used to develop single-page web applications(SPAs). 
+It is a continuously growing and expanding framework which provides better ways for developing web applications.
+
+-----------------------------------------------------------------
+
+It changes the static HTML to dynamic HTML. Its features like dynamic binding and dependency injection eliminate the need for code that we have to write otherwise. AngularJS is rapidly growing and because of this reason, we have different versions of AngularJs with the latest stable being 1.7.7. It is also important to note that Angular is different from AngularJs. It is an open-source project which can be freely used and changed by anyone. It extends HTML attributes with Directives, and data is bound with HTML.
+
+
+Key Points:
+
+   ->AngularJS is a JavaScript framework that is mainly used for Frontend Development.
+   ->It is used for making Single Page Applications(SPA).
+   ->It is open source and is completely free for everyone.
+   ->It uses the Model, View, Control(MVC) pattern for developing projects.
+ 
+
+Why use it?
+
+  ->Easy to work with: All you need to know to work with AngularJs is basics of HTML,CSS and Javascript,not necessary to be an expert in these technologies.
+  ->Time-saving: AngularJs allows us to work with components and hence we can use them again which saves time and unnecessary code.
+  ->Ready to use template: AngularJs is mainly plain HTML, and it mainly makes use of the plain HTML template and passes it to the DOM and then the AngularJS compiler. 
+  ->It traverses the templates and then they are ready to use.
+
+Example:
+   
+    =>LAB
+      ->EX-1.html
