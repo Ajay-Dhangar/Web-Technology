@@ -1,0 +1,46 @@
+==================
+   Ant Design
+==================
+
+Ant Design is a React UI library that contains easy-to-use components that are useful for building interactive user interfaces. 
+It is very easy to use as well as integrate. 
+It is one of the smart options to design web applications using react. 
+It provides us with high-quality components which can be used with ease.
+
+--------------------------------------
+
+Installing Ant Design: We can install it using npm. To install it, first make sure you have installed Node.js and npm.
+
+-> Using npm: Command to install And Design using npm:
+   ______________________________
+      npm install antd
+   ______________________________
+
+-> Using yarn: Command to install Ant Design using yarn:
+    ______________________________
+      yarn install antd
+    ______________________________
+
+Let’s understand the working of Ant design using an example.
+
+Step 1: Create a React application using the following command:
+    _________________________________
+     npx create-react-app foldername
+    _________________________________
+
+Step 2: After creating your project folder i.e. foldername, move to it using the following command:
+    ______________________________
+     cd foldername
+    ______________________________
+
+Step 3: After creating the ReactJS application, Install the required module using the following command:
+______________________________
+   npm install antd
+______________________________
+
+Now write down the following code in the App.js file to create timepicker using ReactJS UI Ant Design TimePicker Component. 
+Here, App is our default component where we have written our code.
+  
+  example
+       => LAB 
+          -> App.js
