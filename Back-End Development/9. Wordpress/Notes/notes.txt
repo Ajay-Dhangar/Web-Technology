@@ -1,0 +1,39 @@
+=============
+  WordPress
+=============
+
+WordPress is an open-source Content Management System that is totally based on PHP and MySql and used to create a dynamic website. 
+It was developed by Matt Mullenweg and Written in PHP. 
+WordPress is one of the most popular that allows customizing and managing the website from its back-end content management system.
+
+
+Content Management System: It is a software platform that stores all data such as text, photos, music. 
+It will help you in editing the existing data of the website. 
+It allows users to manage content from an internal UI.
+
+Why WordPress ?
+
+   Basically, WordPress is an easy platform to use if you are new to web development. 
+   Without lots of coding, you will be able to create a blog or website and host it. 
+   You can easily customize, choose a theme and build a website of your choice. 
+   WordPress installation is better than other CMS and it is easy to use.
+
+Installing WordPress: Before installing WordPress, you need to FTP client and the latest version of WordPress. 
+After WordPress is downloaded you can upload your file to your hosting account using FTP Client. 
+Once installation is done, you can log into WordPress DashBoard by using the link http://www.yourdomain.com/wp-admin
+
+Advantages:
+
+   You can choose any design because WordPress has available thousands of free themes.
+   There are thousands of Plugins available.
+   It is responsive for all-screens.
+   It has a huge community that helps you to get answers to your questions.
+   It is completely free to install on your server so you have low-cost pay.
+
+
+Disadvantages:
+
+  It has no built-in SEO functionality.
+  It is Open Source that’s why it has open room for possible hackers.
+  It does not have drag and drop web building tools if you do not have coding skills ,it will be difficult to make a lot of changes.
+  PHP Knowledge is required to make modifications or changes to the WordPress website.

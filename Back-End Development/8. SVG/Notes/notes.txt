@@ -1,0 +1,22 @@
+============
+   SVG
+============
+
+SVG stands for Scalable Vector Graphic. 
+It can be used to make graphics and animations like in HTML canvas. 
+It is a type of vector graphic that may be scaled up or down. 
+SVG is a web standard for vector-based graphics. 
+It basically defines vector-based graphics in XML format. 
+SVG graphics do NOT lose any quality if they are zoomed or resized.
+
+Why SVG?
+
+   SVG images can be created and edited with any text editor.
+   It can be searched, indexed, scripted, and compressed.
+   SVG images are scalable.
+   It can be printed with high quality at any resolution.
+   Every element and every attribute in SVG files can be animated.
+   
+Now let’s understand SVG using an example.
+
+Example: In this example, we will be drawing A SVG Circle in HTML.

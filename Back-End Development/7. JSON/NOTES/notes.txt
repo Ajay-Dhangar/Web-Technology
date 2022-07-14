@@ -1,0 +1,24 @@
+===============
+      JSON
+===============
+
+JSON stands for JavaScript Object Notation. 
+It is a format for structuring data. 
+This format is used by different web applications to communicate with each other. 
+It is the replacement of the XML data exchange format. 
+It is easy to struct the data compare to XML. 
+It supports data structures like arrays and objects and the JSON documents that are rapidly executed on the server.
+
+------------------------------------------------
+
+Why JSON?
+     It is a Language-Independent format that is derived from JavaScript. 
+     It is Human-readable and writable. 
+     It is a lightweight text-based data interchange format which means, it is simpler to read and write when compared to XML. 
+     Though it is derived from a subset of JavaScript, yet it is Language independent. 
+     Thus, the code for generating and parsing JSON data can be written in any other programming language.
+
+     Syntax Rules: Data is in name/value pairs and they are separated by commas. 
+     It uses curly brackets to hold the objects and square brackets to hold the arrays.
+
+Example:

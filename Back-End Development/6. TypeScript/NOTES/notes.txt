@@ -1,0 +1,48 @@
+=====================
+    TypeScript
+=====================
+
+TypeScript is an Open Source Object Oriented programming language and strongly typed language. 
+It is a Strict Super Set of JavaScript, which means anything that is implemented in JavaScript can be implemented using TypeScript along with the choice of adding enhanced features (every existing JavaScript Code is a valid TypeScript Code). 
+As TypeScript code is converted to JavaScript code it makes it easier to integrate into JavaScript projects. For a large-scale project adopting It might result in more robust software, while still being deployable where a regular JavaScript application would run. 
+It won’t make your software bug-free. 
+But it can prevent a lot of type-related errors. Along with the Clever IntelliSense.
+
+-----------------------------------------
+
+Why TypeScript?
+    
+    JavaScript was initially developed to be a lightweight easy-to-learn language mainly focusing on simple DOM manipulations but the standards changed with time and that is where TypeScript came into the picture as it adds enhanced features to JavaScript.
+    The support for Classes and Objects is also one of the main reasons for its increasing popularity as it makes it easier to understand and implement OOPS concepts as compared to the standard prototype-based implementation provided by native JavaScript.
+    Also, the use of TypeScript in popular JavaScript Frameworks like Angular has helped TypeScript gain interest.
+    Typescript adopts the basic building blocks of your program from JavaScript. All TypeScript code is converted into its JavaScript equivalent for the purpose of execution.
+    Steps to Install TypeScript: Browsers natively does not understand typescript, but they understand javascript. So in order to run the codes, first it is transpiled to javascript.
+
+You can install it by running the following command: 
+  _______________________________
+    npm install -g typescript
+  _______________________________
+
+Let’s understand the working of the code using an example.
+
+Example: In this example, we are creating a basic example that will print “learning from Aj Zero Coding”.
+
+      ______________________________________________
+        // Save the file as index.ts
+        var learn: string = "learning";
+        var codes: string = "Aj Zero Coding";
+        console.log(learn + " from " + codes);
+      ______________________________________________
+Step to compile: To compile the code, we can run the following command on the command line.
+      _______________________________
+          tsc index.ts
+      _______________________________
+
+Step to run: Run the javascript file using the following command on the command line:
+      _______________________________
+          node index.js
+      _______________________________
+
+Output:
+
+learning from Aj Zero Coding

@@ -1,0 +1,60 @@
+===================
+   React Rebass
+===================
+
+React Rebass is a front-end framework that was designed keeping react in mind. 
+It is a themeable primitive UI component library for React. 
+React Rebass is built with a Styled System. 
+Any theme object created for Styled System should work with Rebass. 
+Rebass gives us flexible components by which we can easily create components according to users’ choices. 
+It is the best choice to create prototypes and UI without needing to invest time in building a custom design system up-front.
+
+-------------------------------------
+
+Install: You can install Rebass with the help of npm or yarn by following commands:
+     
+    _______________________
+         npm i rebass
+         // or
+         yarn add rebass
+    _______________________
+
+Now, you can easily import components from Rebass in your application like –
+    __________________________________  
+      import { Text } from 'rebass';
+    __________________________________
+
+By default, the Rebass component does not include themes in them. You can add a theme to your application with a ThemeProvider component and by providing a theme in context.
+    __________________________________________________________
+      npm i @rebass/preset emotion-theming
+    __________________________________________________________
+
+Now, you can use ThemeProvider component as:
+    __________________________________________________________
+      import { ThemeProvider } from 'emotion-theming';
+      import theme from '@rebass/preset';
+    __________________________________________________________
+
+Let’s understand its works using an example.
+
+Step 1: Create a React app.
+    __________________________________
+      npx create-react-app new-app
+    __________________________________
+
+Step 2: change directory to appname.
+    _______________________
+      cd new-app
+    _______________________
+
+Project Structure: Now, the app structure will look like this: => [ in LAB ]
+
+Change the code in the App.js file:
+
+Step to run the application: Open the terminal and type the following command.
+    _______________________
+      npm start
+    _______________________
+
+Output:
+

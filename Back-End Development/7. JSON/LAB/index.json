@@ -1,0 +1,14 @@
+{
+    "Data Structures": [{
+            "Name": "Trees",
+            "Course": "Intoduction of Trees",
+            "Content": ["Binary Tree", "BST",
+                "Generic Tree"
+            ]
+        },
+        {
+            "Name": "Graphs",
+            "Topics": ["BFS", "DFS", "Topological Sort"]
+        }
+    ]
+}

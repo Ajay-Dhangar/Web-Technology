@@ -1,0 +1,37 @@
+===================
+   PHP Tutorials
+===================
+
+The term PHP is an acronym for Hypertext Preprocessor. 
+It is a server-side scripting language that is used for web development. 
+It can be easily embedded with HTML files. HTML codes can also be written in a PHP file. 
+The PHP codes are executed on the server-side whereas HTML codes are directly executed on the browser.
+
+Example: Simple program to print “Hello world!” message on the screen.
+    => LAB 
+       -> EX-1.PHP
+    __________________________________
+       <?php
+  
+        /* echo is a print command */
+        echo "Hello world!"; 
+ 
+        ?> 
+    __________________________________
+Run on IDE
+   
+      Output:
+    _______________________
+      Hello world!
+    _______________________
+
+Why we learn PHP ?
+   It is one of the widely used open-source general-purpose scripting language that is used for backend Development. 
+   Apart from this, let’s see why we should learn it.
+   
+      Easy to Learn: It is easier to learn for anyone who has come across to any programming language for the first time.
+      Free of Cost: Since it is an open-source language, therefore developers are allowed to use its components and all methods for free.
+      Flexible: Since It is a dynamically typed language, therefore there are no hard rules on how to build features using it.
+      Supports nearly all databases: It supports all the widely used databases, including MySQL, ODBC, SQLite etc.
+      Secured: It has multiple security levels provides us a secure platform for developing websites as it has multiple security levels.
+      Huge Community Support: It is loved and used by a huge number of developers. The developers share their knowledge with other people of the community that want to know about it.
