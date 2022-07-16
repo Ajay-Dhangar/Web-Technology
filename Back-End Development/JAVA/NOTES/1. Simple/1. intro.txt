@@ -1,0 +1,98 @@
+=============
+    JAVA
+=============
+
+What is Java?
+   Java is a programming language and a platform. 
+   Java is a high level, robust, object-oriented and secure programming language.
+   
+   Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. 
+   James Gosling is known as the father of Java. Before Java, its name was Oak. 
+   Since Oak was already a registered company, so James Gosling and his team changed the name from Oak to Java.
+   
+   Platform: Any hardware or software environment in which a program runs, is known as a platform. 
+   Since Java has a runtime environment (JRE) and API, it is called a platform.
+
+It is used for:
+
+   * Mobile applications (specially Android apps)
+   * Desktop applications
+   * Web applications
+   * Web servers and application servers
+   * Games
+   * Database connection
+   * And much, much more!
+
+History: Java’s history is very interesting. 
+        It is a programming language created in 1991. 
+        James Gosling, Mike Sheridan, and Patrick Naughton, a team of Sun engineers known as the Green team initiated the Java language in 1991. 
+        Sun Microsystems released its first public implementation in 1996 as Java 1.0. 
+        It provides no-cost -run-times on popular platforms. Java1.0 compiler was re-written in Java by Arthur Van Hoff to strictly comply with its specifications. 
+        With the arrival of Java 2, new versions had multiple configurations built for different types of platforms.
+        In 1997, Sun Microsystems approached the ISO standards body and later formalized Java, but it soon withdrew from the process. 
+        At one time, Sun made most of its Java implementations available without charge, despite their proprietary software status. 
+        Sun generated revenue from Java through the selling of licenses for specialized products such as the Java Enterprise System.
+        
+        On November 13, 2006, Sun released much of its Java virtual machine as free, open-source software. 
+        On May 8, 2007, Sun finished the process, making all of its JVM’s core code available under open-source distribution terms.
+
+        The principles for creating java were simple, robust, secured, high performance, portable, multi-threaded, interpreted, dynamic, etc. 
+        In 1995 Java was developed by James Gosling, who is known as the Father of Java. 
+        Currently, Java is used in mobile devices, internet programming, games, e-business, etc.
+
+Types of Java Applications
+    There are mainly 4 types of applications that can be created using Java programming:
+
+    1) Standalone Application
+    Standalone applications are also known as desktop applications or window-based applications. 
+    These are traditional software that we need to install on every machine. 
+    Examples of standalone application are Media player, antivirus, etc. 
+    AWT and Swing are used in Java for creating standalone applications.
+    
+    2) Web Application
+    An application that runs on the server side and creates a dynamic page is called a web application. 
+    Currently, Servlet
+    , JSP
+    , Struts
+    , Spring
+    , Hibernate
+    , JSF
+    , etc. technologies are used for creating web applications in Java.
+    
+    3) Enterprise Application
+    An application that is distributed in nature, such as banking applications, etc. is called an enterprise application. 
+    It has advantages like high-level security, load balancing, and clustering. 
+    In Java, EJB
+    is used for creating enterprise applications.
+    
+    4) Mobile Application
+    An application which is created for mobile devices is called a mobile application. 
+    Currently, Android and Java ME are used for creating mobile applications.
+    
+    
+Java Platforms / Editions
+    There are 4 platforms or editions of Java:
+    
+    1) Java SE (Java Standard Edition)
+    It is a Java programming platform. 
+    It includes Java programming APIs such as java.lang, java.io, java.net, java.util, java.sql, java.math etc. 
+    It includes core topics like OOPs, String
+    , Regex, Exception, Inner classes, Multithreading, I/O Stream, Networking, AWT, Swing, Reflection, Collection, etc.
+    
+    2) Java EE (Java Enterprise Edition)
+    It is an enterprise platform that is mainly used to develop web and enterprise applications. 
+    It is built on top of the Java SE platform. It includes topics like Servlet, JSP, Web Services, EJB, JPA
+    , etc.
+    
+    3) Java ME (Java Micro Edition)
+    It is a micro platform that is dedicated to mobile applications.
+    
+    4) JavaFX
+    It is used to develop rich internet applications. It uses a lightweight user interface API.
+    
+    
+Prerequisite
+To learn Java, you must have the basic knowledge of C/C++ programming language.
+
+Audience
+Our Java programming tutorial is designed to help beginners and professionals.

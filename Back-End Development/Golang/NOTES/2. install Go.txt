@@ -1,0 +1,70 @@
+==================================================
+    How to Install Go on Windows?
+==================================================
+
+Prerequisite: Introduction to Go Programming Language
+     Before, we start with the process of Installing Golang on our System. 
+     We must have first-hand knowledge of What the Go Language is and what it actually does? 
+     Go is an open-source and statically typed programming language developed in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson at Google but launched in 2009. 
+     It is also known as the Golang and it supports the procedural programming language. 
+     It was initially developed to improve programming productivity of the large codebases, multicore, and networked machines.
+
+Golang programs can be written on any plain text editor like notepad, notepad++ or anything of that sort. 
+One can also use an online IDE for writing Golang codes or can even install one on their system to make it more feasible to write these codes. 
+Using an IDE makes it easier to write Golang codes because IDEs provide a lot of features like intuitive code editor, debugger, compiler, etc.
+To begin with, writing Golang Codes and performing various intriguing and useful operations, one must have the Go language installed on their System. 
+This can be done by following the step by step instructions provided below:
+
+How to check the Preinstalled Go Language Version?
+   Before we begin with the installation of Go, it is good to check if it might be already installed on your System. 
+   To check if your device is preinstalled with Golang or not, just go to the Command line(For Windows, search for cmd in the Run dialog( + R).
+
+Now run the following command:
+
+  go -version
+  If Golang is already installed, it will generate a message with all the details of the Golang’s version available, otherwise, if Golang is not installed then an error will arise stating Bad command or file name
+
+Downloading and Installing Go
+   Before starting with the installation process, you need to download it. 
+   For that, all versions of Go for Windows are available on golang.org.
+
+Download the Golang according to your system architecture and follow the further instructions for the installation of Golang.
+
+Step 1: After downloading, unzip the downloaded archive file. After unzipping you will get a folder named go in the current directory.
+
+        Extract-Golang-Files
+
+Step 2: Now copy and paste the extracted folder wherever you want to install this. 
+        Here we are installing in C drive.
+
+Step 3: Now set the environment variables. 
+
+    (i) Right click on My PC and select Properties. 
+       
+    (ii) Choose the Advanced System Settings from the left side and click on Environment Variables as shown in the below screenshots.
+
+    (iii) Advanced-System-Settings
+
+    (iv) Environment-Variables
+
+Step 4: Click on Path from the system variables and then click Edit. Then Click New and then add the Path with bin directory where you have pasted the Go folder. Here we are editing the path C:\go\bin and click Ok as shown in the below screenshots.
+
+      Environment Variables
+
+      Adding-Path-Variables
+
+Step 5: Now create a new user variable which tells Go command where Golang libraries are present. For that click on New on User Variables as shown in the below screenshots.
+
+       Enviornment-User-Variables
+
+Now fill the Variable name as GOROOT and Variable value is the path of your Golang folder. So here Variable Value is C:\go\. After Filling click OK.
+
+        User-Variables
+
+After that Click Ok on Environment Variables and your setup is completed. Now Let’s check the Golang version by using the command go version on command prompt.
+
+         golang version
+
+After completing the installation process, any IDE or text editor can be used to write Golang Codes and Run them on the IDE or the Command prompt with the use of command:
+
+         go run filename.go

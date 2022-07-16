@@ -1,0 +1,63 @@
+==================================
+     Hello World in Golang
+==================================
+
+Hello, World! is the first basic program in any programming language. 
+Let’s write the first program in the Go Language using the following steps:
+
+First of all open Go compiler. 
+In Go language, the program is saved with .go extension and it is a UTF-8 text file.
+Now, first add the package main in your program:
+
+package main
+  Every program must start with the package declaration. 
+  In Go language, packages are used to organize and reuse the code. 
+  In Go, there are two types of program available one is executable and another one is the library. 
+  The executable programs are those programs that we can run directly from the terminal and Libraries are the package of programs that we can reuse them in our program. 
+  Here, the package main tells the compiler that the package must compile in the executable program rather than a shared library. 
+  It is the starting point of the program and also contains the main function in it.
+
+After adding main package import “fmt” package in your program:
+------------
+   import(
+   "fmt"
+   )
+-----------
+
+Here, import keyword is used to import packages in your program and fmt package is used to implement formatted Input/Output with functions.
+
+Now write the code in the main function to print hello world in Go language:
+--------------------------------------------------------------------------
+    func main() {
+        fmt.Println("!... Hello World ...!")
+    }
+--------------------------------------------------------------------------
+In the above lines of code we have:
+
+   func: It is used to create a function in Go language.
+   main: It is the main function in Go language, which doesn’t contain the parameter, doesn’t return anything, and call when you execute your program.
+   Println(): This method is present in fmt package and it is used to display “!… Hello World …!” string. Here, Println means Print line.
+Example:
+    --------------------------------------------------------
+      // First Go program
+      package main
+        
+      import "fmt"
+        
+      // Main function
+      func main() {
+        
+          fmt.Println("!... Hello World ...!")
+      }
+    ---------------------------------------------------------
+Output:
+    -------------------------------------
+       !... Hello World ...!
+    -------------------------------------
+
+How to run Golang Program?
+To run a Go program you need a Go compiler. 
+In Go compiler, first you create a program and save your program with extension .go, for example, first.go. Now we run this first.go file in the go compiler using the following command, i.e:
+------------------------------
+   $ go run first.go
+------------------------------

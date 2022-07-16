@@ -1,0 +1,180 @@
+=================
+    Golang
+=================
+
+Golang is a procedural and statically typed programming language having the syntax similar to C programming language. 
+Sometimes it is termed as Go Programming Language. It provides a rich standard library, garbage collection, and dynamic-typing capability. 
+It was developed in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson at Google but launched in 2009 as an open-source programming language and mainly used in Google’s production systems. 
+Golang is one of the most trending programming languages among developers.
+
+----------------------------------------------
+   Go Programming Language (Introduction)
+----------------------------------------------
+
+Introduction
+
+    Go is a procedural programming language. 
+    It was developed in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson at Google but launched in 2009 as an open-source programming language. 
+    Programs are assembled by using packages, for efficient management of dependencies. 
+    This language also supports environment adopting patterns alike to dynamic languages. 
+    For eg., type inference (y := 0 is a valid declaration of a variable y of type float).
+
+Beginning with Go programming
+
+     There are various online IDEs such as The Go Playground, repl.it, etc. which can be used to run Go programs without installing. 
+
+For installing Go in own PCs or Laptop we need of following two software: 
+Text editor and Compiler 
+Text Editor: Text editor gives you a platform where you write your source code. 
+
+Following are the list of text editors:  
+
+Windows notepad
+OS Edit command
+Brief
+Epsilon
+vm or vi
+Emacs
+VS Code
+Finding a Go Compiler: Go distribution comes as a binary installable for FreeBSD (release 8 and above), Linux, Mac OS X (Snow Leopard and above), and Windows operating systems with 32-bit (386) and 64-bit (amd64) x86 processor architectures. 
+For more instructions about installing. 
+Please visit For installing GO distribution  
+
+Note: Extension of source code file of go language must be .go
+Writing first program in Go:  
+
+    ---------------------------------------------
+        package main 
+          
+        import "fmt"
+         
+        func main() {
+         
+             // prints geeksforgeeks
+             fmt.Println("Hello, Aj Zero Coding")
+        }
+    ---------------------------------------------
+Output:  
+    ---------------------------------------------
+        Hello, Aj Zero Coding
+    ---------------------------------------------
+
+Explanation of the syntax of Go program: 
+
+Line 1: It contains the package main of the program, which have overall content of the program.
+It is the initial point to run the program, So it is compulsory to write.
+Line 2: It contains import “fmt”, it is a preprocessor command which tells the compiler to include the files lying in the package.
+Line 3: main function, it is beginning of execution of program.
+Line 4: fmt.Println() is a standard library function to print something as a output on screen.
+In this, fmt package has transmitted Println method which is used to display the output.
+Comment: Comments are used for explaining code and are used in similar manner as in Java or C or C++. 
+Compilers ignore the comment entries and does not execute them. Comments can be of single line or multiple lines.
+Single Line Comment: 
+    
+Syntax: 
+    --------------------------------------------    
+        // single line comment
+        Multi-line Comment: 
+        
+        Syntax: 
+        
+        /* multiline comment */
+        Following is another example:  
+        
+        
+        package main
+        import "fmt"
+         
+        func main() {
+           fmt.Println("1 + 1 =", 1 + 1)
+        }
+    ------------------------------------------------
+Output:  
+    -----------------------------------------------
+        1 + 1 = 2
+    -----------------------------------------------
+
+Explanation of the above program: 
+In this above program, the same package line, the same import line, the same function declaration and uses the same Println function as we have used in 1st GO program. 
+This time instead of printing the string “Hello, Aj Zero Coding” we print the string 1 + 1 = followed by the result of the expression 1 + 1. 
+This expression is made up of three parts: the numeric literal 1 (which is of type int), the + operator (which represents addition) and another numeric literal 1. 
+
+--------------------------------------------------------
+
+Why this “Go language”?
+
+    Because Go language is an effort to combine the ease of programming of an interpreted, dynamically typed language with the efficiency and safety of a statically typed, compiled language. 
+    It also aims to be modern, with support for networked and multicore computing. 
+----------------------------------------------
+
+What excluding in Go which is present in other languages? 
+
+    Go attempts to reduce the amount of typing in both senses of the word. Throughout its design, developers tried to reduce clutter and complexity.
+    There are no forward declarations and no header files; everything is declared exactly once.
+    Stuttering is reduced by simple type derivation using the := declare-and-initialize construct.
+    There is no type hierarchy: types just are, they don’t have to announce their relationships.
+----------------------------------------
+
+Hardware Limitations
+
+    We have observed that in a decade, the hardware and processing configuration is changing at a very slow rate. 
+    In 2004, P4 was having the clock speed of 3.0 GHz and now in 2018, Macbook pro has the clock speed of Approx (2.3Ghz v 2.66Ghz). 
+    To speed up, the functionality we use more processors, but using more processor the cost also increases. 
+    And due to this we use limited processors and using limited processor we have a heavy programming language whose threading takes more memory and slows down the performance of our system. 
+    Hence, to overcome such problem Golang has been designed in such a way that instead of using threading it uses Goroutine, which is similar to threading but consumes very less memory. 
+    Like threading consumes 1MB whereas Goroutine consumes 2KB of memory, hence at the same time, we can have millions of goroutine triggered. 
+    So the above-discussed point makes golang a strong language that handles concurrency like C++ and Java. 
+
+-----------------------------------
+
+Advantages and Disadvantages of Go Language
+
+Advantages:  
+    
+    Flexible- It is concise, simple and easy to read.
+    Concurrency- It allows multiple process running simultaneously and effectively.
+    Quick Outcome- Its compilation time is very fast.
+    Library- It provides a rich standard library.
+    Garbage collection- It is a key feature of go. Go excels in giving a lot of control over memory allocation and has dramatically reduced latency in the most recent versions of the garbage collector.
+    It validates for the interface and type embedding.
+-----------------------------------
+
+Disadvantages:  
+
+    It has no support for generics, even if there are many discussions about it.
+    The packages distributed with this programming language is quite useful but Go is not so object-oriented in the conventional sense.
+    There is absence of some libraries especially a UI tool kit.
+------------------------------------------
+
+Some popular Applications developed in Go Language
+
+    Docker: a set of tools for deploying linux containers
+    Openshift: a cloud computing platform as a service by Red Hat.
+    Kubernetes: The future of seamlessly automated deployment processes
+    Dropbox: migrated some of their critical components from Python to Go.
+    Netflix: for two part of their server architecture.
+    InfluxDB: is an open-source time series database developed by InfluxData.
+    Golang: The language itself was written in Go.
+    Country wise Companies which are currently using Go Language. 
+
+Features of go language 
+
+    Language Design: The designers of the language made a conscious purposeful to keep the language simple and easy to understand. 
+    The entire detailing is in a few pages and some interesting design decisions were made through Object-Oriented support in the language.
+    Towards this, the language is opinionated and recommends an idiomatic way of achieving things. It prefers Composition over Inheritance. In Go Language, “Do More with Less” is the mantra.
+    
+    Package Management: Go merges modern day developer workflow of working with Open Source projects and includes that in the way it manages external packages. 
+    Support is provided directly in the tooling to get external packages and publish your own packages in a set of easy commands.
+    
+    Powerful standard library: Go has powerful standard library, which is distributed as packages.
+    
+    Static Typing:Go is static typed language. 
+    So, in this compiler not just work on compiling the code successfully but also ensures on type conversions and compatibility. 
+    Because of this feature Go avoid all those problems which we face in dynamically typed languages.
+    
+    Testing Support: Go provides us the unit testing features by itself i.e., a simple mechanism to write your unit test parallel with your code because of this you can understand you code coverage by your own tests. 
+    And that can be easily used in generating your code documentation as an example.
+    
+    Platform Independent: Go language is just like Java language as it support platform independency. 
+    Due to its modular design and modularity i.e., the code is compiled and is converted into binary form which is as small as possible and hence, it requires no dependency. 
+    Its code can be compiled in any platform or any server and application you work on.
